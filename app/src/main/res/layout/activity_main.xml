@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:id="@+id/tvHeading"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:background="@color/purple_500"
+        android:layout_height="wrap_content"
+        android:text="অধিবেশনের গানসমূহ"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="তুমি আদি অন্ত, অনাদি অনন্ত"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="হের মোরে দয়াময়"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পরম দরদী করুণা জলধি"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="আমায় সকল দিয়ে বাঁচাও তুমি কে"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কতকাল এমন করে, রাখবে দূরে "
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অনাদি অনন্ত নাথ অনন্ত শান্তি নিলয়"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="তোমার অনন্ত প্রেম দিয়াছে যে আশা"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ওহে ভবেশ্বর, করুণা নির্ঝর"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অনন্ত অনন্ত গুণে বিভু পরাতপর"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="করুণাময় তারক পাপ হর"
+        android:textSize="16sp"
+        />
+
+
+</LinearLayout>
